@@ -5,7 +5,7 @@
 
 #### register - login a User
 #### create - read - update - delete a Toy
-#### list & filtering exchange
+#### list + paginate + filtering exchange
 #### desactivate exchange
 
 # How to work with this API
