@@ -1,5 +1,5 @@
 # Exchange-API
-## WCC_s2_dev
+## `Techzara_WCC2`
 
 ### with this API you can:
 
