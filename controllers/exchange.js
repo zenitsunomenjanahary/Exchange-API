@@ -30,7 +30,7 @@ export const createExchange = async(req, res,next) =>{
 export const getExchanges = async(req, res,next)=> {
     try {
         const page = parseInt(req.query.page) -1 || 0;
-        const limit = parseInt(req.query.limit) || 2;
+        const limit = parseInt(req.query.limit) || 10;
         const status = req.query.status || "activate";
 
         const exchanges = await Exchange.find()
